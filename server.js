@@ -31,3 +31,5 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`✅ MCP Server running on http://localhost:${PORT}`);
 });
+
+module.exports = app;
